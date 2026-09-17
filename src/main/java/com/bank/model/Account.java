@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 public class Account {
     private Long accountId;
     private Long customerId;
-    private String accountNumber1; // Пополнение и снятие
-    private String accountNumber2; // Только пополнение без снятия
+    private String accountNumber1; 
+    private String accountNumber2; 
     private BigDecimal balance;
 
     public Account(Long accountId, Long customerId, String accountNumber1, String accountNumber2, BigDecimal balance) {
