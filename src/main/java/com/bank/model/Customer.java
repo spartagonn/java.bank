@@ -4,7 +4,7 @@ public class Customer {
     private Long id;
     private String name;
     private String surname;
-    private String email; // Уникальный код
+    private String email; 
 
     public Customer(Long id, String name, String surname, String email) {
         this.id = id;
